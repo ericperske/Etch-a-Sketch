@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>Etch-a-Sketch</header>
+    <div id="body">
+        <div id="leftContainer">
+            <h2>Select your options: </h2>
+            <div>
+                <a>Select a color:</a>
+                <select id="colorSelect">
+                    <option id="black">Black</option>
+                    <option id="red">Red</option>
+                    <option id="blue">Blue</option>
+                    <option id="green">Green</option>
+                    <option id="Yellow">Yellow</option>
+                    <option id="Purple">Purple</option>
+                    <option id="Rainbow">Rainbow Mode</option>
+                </select>
+            </div><br>
+            <div>
+                <a>How many squares:</a>
+                <input id="numSquares">
+            </div>
+        </div>
+        <div id="container"></div>
+        <div id="rightContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
